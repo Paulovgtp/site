@@ -1,0 +1,444 @@
+
+
+body {
+    font-family: arial, tahoma, verdana;
+    font-size: 14px;x;
+}
+
+body, img, h1, h2, h3, h4 {
+    border: 0;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+/* SITE */
+
+    #site {
+        width: 1200px;
+        margin: auto;
+    }
+    a {
+        color: #000;
+        text-decoration: none;
+    } 
+____________________________________________________________________
+
+/* BARRA DE NAVEGAÇÃO */
+
+    #header {
+        height: 94px;
+        text-align: center;
+        height: 120px;
+        float: left;
+        background-color: #f0f0f0;
+    }
+____________________________________________________________________
+
+/* HEADER */
+
+    header {
+        height: 120px;
+        background-color: #f0f0f0; 
+    }
+
+    header .logo {
+        max-width: 100%;
+        width: auto;
+        height: 90px;
+        float: left;
+        padding: 26px 0 0 44px;
+    }
+
+    header .logo img {
+        width: 180px;
+        height: 73px;
+        text-indent: -8000px;
+        float: left;        
+    }
+
+    header a.ed {
+        font-family: Quicksand, Quicksand Light, arial, verdana, tahoma;
+        font-size: 15px;
+        width: 190px;
+        height: 19px;
+        float: right;
+        margin: 95px 55px 0 0;
+    }
+____________________________________________________________________
+
+/* BARRA DE LINKS */
+
+    #linkbar {
+        margin: auto;
+        background-color: #434343;
+        height: 30px;
+        font-family: verdana;
+        font-size: 10x;
+    }
+
+    #linkbar ul {
+        height: auto;
+        padding: 8px 0;
+        margin: 0;
+    }
+
+    #linkbar ul li {
+        display: inline;
+        padding: 0px;
+        margin: 0;
+    }
+
+    #linkbar ul li a {
+        color: #fff;
+        padding: 8px 8px 8px 8px;
+        text-decoration: none;
+    }
+____________________________________________________________________
+
+/* CENTER */
+
+
+    #center {
+        width: 100%;
+        float: left;
+    }
+
+    *{
+    	margin: 0;
+    	padding: 0;
+    	list-style: none;
+    	outline: 0;
+    	font-family: 'Arial','Sans-Serif';
+    }
+
+        /* CARROUSEL */
+
+    #content {
+    	margin: 0 auto;
+    	width: 100%;
+    	height: 100px;
+    }
+
+    #carrossel {
+    	float: left;
+    	width: 100%;
+    	overflow: hidden;
+    	height: auto;
+    }
+
+    #carrossel ul li {
+    	width: 100%;
+    	height: 100%;
+    	float: left;
+    	margin: 0;
+    }
+
+    #carrossel ul li img {
+        width: 100%;
+        height: 100%;
+    }
+
+        /* TEXT'S */
+    
+    #text {
+        width: 100%;
+        background-color: #434343;
+    }
+
+    #text .text1 {
+        width: 70%;
+        background-color: #676767;
+    }
+
+    #text .seach {
+        width: 25%;
+        background-color: #676767;
+    }
+
+    #text .seach1, .seach2, .seach3 {
+        width: 50%;
+        background-color: #838383;
+    }
+
+    #text .seach .input {
+        height: 20px;
+        width: 150px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+____________________________________________________________________
+
+/* FOOTER */
+
+    #footer {
+        width: 100%;
+        height: 200px;
+        float: left;
+    }
+
+    #footer ._links-1 {
+        max-width: 100%;
+        width: 40%;
+        height: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    #footer ._links-1 img {
+        display: block;
+        margin: auto 15%;
+        width: 70%;
+        height: 115px;
+        float: left;
+        text-indent: -10000px;
+    }
+
+    #footer ._links-2 {
+        width: 24%;
+        height: 100%;
+        float: left;
+        margin-left: 1px;
+    }
+
+    #footer ._links-3 {
+        width:24%;
+        height:100%;
+        float:left;
+        margin-left: 1px;
+    }
+_______________________________________________________
+
+/* @MEDIA ALL AND */
+
+    @media all and (max-width: 745px) {
+        #footer ._links-1 {
+            max-width: 100%
+            width: 100%;
+        }
+        #footer ._links-2 {
+            width: 50%;
+        }
+        #footer ._links-3 {
+            width: 50%;
+        }
+    }
+
+    @media all and (max-width:850px) {
+        header {
+            width: 100%;
+            height: 100%;
+        }
+        header .logo li {
+            display: block;
+            margin: 0px;
+        }
+    }
+
+    @media all and (max-width:1024px) {
+        #linkbar ul li {
+            display: inline-block;
+            margin: 0;
+        }
+    }
+
+    @media all and (max-width:1198px) {
+        #site {
+            width: 100%;
+            margin: auto;
+        }
+        #header a.ed {
+            float: right;
+        }
+
+        #footer ._links-1 img {
+            width: 70%;
+            height: 70%;
+        }
+    }
+_______________________________________________________
+
+
+
+          /*PEDACOS DE CODICO*/
+            
+/*
+
+    ___________________________________________
+
+        {
+            width: 1000px;
+            height: 26px;
+            float: left;
+            margin-top: 1px;
+            background-color: #bc0000;
+        }
+    ___________________________________________
+
+        ul {
+            list-style:none;
+        }
+
+        .nav > li {
+            float:left;
+        }
+
+        .nav li a {
+            background-color:#000;
+            color:#fff;
+            text-decoration:none;
+            padding:10px 12px;
+            display:block;
+        }
+
+        .nav li a:hover {
+            background-color:#434343;
+        }
+
+        .nav li ul {
+            display:none;
+            position:absolute;
+            min-width:140px;
+        }
+
+        .nav li:hover > ul {
+            display:block;
+        }
+
+        .nav li ul li {
+            position:relative;
+        }
+
+        .nav li ul li ul {
+            right:-140px;
+            top:0px;
+        }
+    ___________________________________________
+
+        #menu {
+            background: #efefef;
+            padding: 0 20px;
+            list-style: none;
+            position: relative;
+            display: inline-table;
+        }
+        #menu .nav ul {
+            margin: 0;
+            padding: 0 17px;
+            list-style: none;
+        }
+        #menu .nav ul li {
+            float: left;
+        }
+        #menu .nav ul li:hover {
+            background: #4b545f;
+        }
+        #menu .nav ul a {
+            float: left;
+            display: inline;
+            color: white;
+            padding: 7px 28px 15px 28px;
+        }
+        #menu .nav ul a:hover {
+            height: 6px;
+            text-decoration: none;
+            .background-color: #d10200;
+            background: #4b545f;
+        }
+        #menu .nav ul ul {
+            display: none;
+        }
+    ___________________________________________
+
+        .wrapper {
+              width: 80%;
+              margin: auto;
+              overflow:hidden;
+        }
+        header {
+              background: rgba(0,0,0,0.9);
+              width: 100%;
+              position: fixed;
+        }
+
+        nav ul li:hover> ul {
+            display: block;
+        }
+        nav ul ul {
+            position: relative;
+            display: none;
+        }
+        nav {
+            text-align: center;
+            float: left;
+        }
+      nav ul {
+            list-style: none;
+            overflow: hidden;
+        }
+      nav ul li {
+            float: left;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+        nav ul li:hover {
+            background: #d10200;
+        }
+        nav ul li a {
+            display: block;
+            padding: 20px;
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul li ul li {
+            float: left;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+        nav ul li ul li:hover {
+            background: #d10200;
+        }
+        nav li ul {
+            background: rgba(0,0,0,0.9);
+            display:none;
+            position:absolute;
+            min-width: 140px;
+        }
+    ___________________________________________
+
+        @media all and (max-width:850px) {
+            #header .links {
+                height: 100%
+            }
+            #header .links a {
+                display: block;
+                padding: 10px;
+                margin: 0px;
+            }
+        }
+    ___________________________________________
+
+        
+        #links-left{
+            /*Novamente definimos a largura da div*/
+            width:500px;
+            /* altura da div */
+            height:300px;
+            /* O atributo Float é utilizado para fazermos o nosso bloco(div) literalmente flutue e se posicione onde queremos na página, quando escolhemos left, dizemos que esse bloco irá se posicionar na parte esquerda da página */
+        /* float:left;
+            /* Cor de fundo da div */
+        /*  background-color:#F23;
+        }
+        #links-right{
+            /*Novamente definimos a largura da div*/
+        /*  width:500px;
+            /* altura da div */
+        /*  height:400px;
+            /* Pode parecer meio estranho usarmos o mesmo atributo left para o bloco em que queremos posicionar na direita, mas como sabemos, o CSS é um estilo em cascata, nossa div conteúdo definimos a largura de 1000px e na conteudo-left 500px, automaticamente ao definirmos o conteudo-right com 500px e à esquerda também, ele ficou à direita do conteudo-left, pois o máximo que a div filha poderá ter é 1000px, sendo 500+500=1000px */
+        /*  float:left;
+            /* Cor de fundo da div */
+        /*  background-color:#F00;
+        }
+    ___________________________________________
+
